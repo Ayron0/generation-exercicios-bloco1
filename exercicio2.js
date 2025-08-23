@@ -4,7 +4,7 @@
 
 const leia = require('readline-sync');
 
-let nota1, nota2, nota3, nota4, media, soma, resul
+let nota1, nota2, nota3, nota4, media
 nota1 = leia.questionFloat('Digite a nota 1: ');
 nota2 = leia.questionFloat('Digite a nota 2: ');
 nota3 = leia.questionFloat('Digite a nota 3: ');

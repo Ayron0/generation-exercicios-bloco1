@@ -1,7 +1,6 @@
 // Com base na tabela abaixo, escreva um algoritmo que leia o código de um item (número inteiro entre 1 e 6) e a quantidade comprada deste item (número inteiro).
 const leia = require('readline-sync');
 let opcao, i, quant, valor, valorTotal
-let produt
 
 for (i = 0; i < 2;i++) {
     opcao = leia.questionInt('\nCodigo do Produto: ');

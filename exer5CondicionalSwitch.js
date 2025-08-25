@@ -72,6 +72,8 @@ for (i = 0; i < 2;i++) {
                     currency: "BRL"
                 }).format(valorTotal),
             );
-            break;                
+            break;
+        default:
+            console.log("\nOpção inválida!");                
     }
 }
